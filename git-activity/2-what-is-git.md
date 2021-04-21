@@ -1,5 +1,12 @@
 # Activity 2: So what is `git`? and how does it compare to GitHub?
 
+## Learning Outcomes
+- [ ] Describe what git is and how it works at a high level
+- [ ] Identify when you are using git and when you are using GitHub
+- [ ] Compare git to GitHub (and other version control tools)
+- [ ] Use GitHub to fork a repository
+- [ ] Use Git to clone a repository to your computer
+
 From the previous lesson on [version control](1-version-control.md), you know that git is a 
 ***version control software*** that helps individuals and teams build and maintain software by managing
 changes to that code base. While `git` is extremely popular software for this, it is not without it's drawbacks. 
@@ -27,8 +34,8 @@ You want to work with a team to build a cool game, but you don't want to have to
 other every time you make a change. Not only is it frustrating to always add the new code to your project, but you may
 have issues with using the same version of the language (Python 2 vs Python 3, for instance). If you set up your project
 as a Repository on GitHub, you can have all of your code in one place, and submit changes to that repository from your
-computer. No one has to guess which version of the code is the most recent, or how it all fits together, because all
-of the code should be in the `main` branch.
+computer. No one has to guess which version of the code is the most recent, or how it all fits together, because all the 
+code should be in the `main` branch.
 
 ## Key Words
 - Repository (often shortened to "repo"): a storage location for software packages or projects. It often resembles 
@@ -41,7 +48,11 @@ of the code should be in the `main` branch.
 
 
 ## Activity:
+In this activity, you will create your own copy of this repository in your GitHub account (as a fork) and then clone it
+to your computer. 
 
+1. Register for a GitHub account or Login to your existing account at [github.com](https://github.com).
+2. 
 
 #### Common `Git` commands:
 - [`git commit`](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)

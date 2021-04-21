@@ -1,5 +1,9 @@
 # Activity 1: What is version control?
 
+## Learning Outcomes
+- [ ] Explain how version control benefits software development for individual and collaborative work
+
+## Version Control Introduction
 Version control is a software specific process that tracks and manages changes to a code base. If you use Google Docs
 or other similar projects, you can often go back in time to "restore" a previous version of your document. 
 
@@ -35,6 +39,9 @@ What are the benefits of working in a team? Feel free to write these down (and a
 or just think about it for yourself. 
 
 If this was confusing, check out the resources below!
+
+## Next Steps:
+Go to [2-what-is-git](./2-what-is-git.md) to go to the next activity.
 
 #### Additional Resources
 Atlassian, the company that owns BitBucket (a GitHub competitor) has great tutorials on git. I highly recommend them. 
