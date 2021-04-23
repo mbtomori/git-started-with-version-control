@@ -30,13 +30,13 @@ The goal of this repository is to get you:
 1. What is version control?
 2. So what is `git`? and how does it compare to GitHub?
 3. `git`ing started with your own fork
-4. The `git` workflow for independent projects.
+4. The `git` workflow for independent projects
 5. Collaboration using `git`
 6. Best practices for collaboration
 7. `git branch` and why you should use it
 8. Requesting changes via GitHub Pull Requests
 9. The dreaded MERGE CONFLICT
-10. Completion Log (Create a pull request to a parent repository).
+10. Completion Log (Create a pull request to a parent repository)
 11. Where do I go from here?
 
 ## What to do to `Git` Started
