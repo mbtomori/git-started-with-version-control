@@ -49,5 +49,5 @@ Open this file in a Text Editor or IDE of your choice, and add your answers (jus
 3. In your own words, explain the difference between Git and GitHub.
    <ANSWER HERE>
 
-#### Common `Git` commands:
-- [`git commit`](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+## Next Step:
+Go to [4-Independent-Project-Workflow](./4-independent-project-workflow.md) to go to the next activity.

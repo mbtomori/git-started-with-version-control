@@ -2,10 +2,7 @@
 
 ## Learning Outcomes
 - [ ] Describe what git is and how it works at a high level
-- [ ] Identify when you are using git and when you are using GitHub
 - [ ] Compare git to GitHub (and other version control tools)
-- [ ] Use GitHub to fork a repository
-- [ ] Use Git to clone a repository to your computer
 
 From the previous lesson on [version control](1-version-control.md), you know that git is a 
 ***version control software*** that helps individuals and teams build and maintain software by managing
@@ -53,9 +50,9 @@ GitHub is not the only platform for hosting software. Other popular platforms in
 - Branch: A branch represents a line of development. In a repository the `main` branch should be the most current, working
   version of your project. (Note: some repositories may still use the [problematic term `master`](https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/)).
   ([Atlassian: git branch](https://www.atlassian.com/git/tutorials/using-branches))
-
-#### Common `Git` commands:
-- [`git commit`](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+  
+## Next Step:
+Go to [3-gitting-started](./3-gitting-started.md) to go to the next activity.
 
 #### Additional Resources
 Atlassian, the company that owns BitBucket (a GitHub competitor) has great tutorials on git. I highly recommend them.

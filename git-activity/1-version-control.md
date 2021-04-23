@@ -40,7 +40,7 @@ or just think about it for yourself.
 
 If this was confusing, check out the resources below!
 
-## Next Steps:
+## Next Step:
 Go to [2-what-is-git](./2-what-is-git.md) to go to the next activity.
 
 #### Additional Resources
