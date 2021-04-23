@@ -33,17 +33,16 @@ The goal of this repository is to get you:
 4. The `git` workflow for independent projects
 5. Collaboration using `git`
 6. Best practices for collaboration
-7. `git branch` and why you should use it
-8. Requesting changes via GitHub Pull Requests
-9. The dreaded MERGE CONFLICT
-10. Completion Log (Create a pull request to a parent repository)
-11. Where do I go from here?
+7. Requesting changes via GitHub Pull Requests
+8. The dreaded MERGE CONFLICT
+9. Completion Log (Create a pull request to a parent repository)
+10. Where do I go from here?
 
 ## What to do to `Git` Started
 I highly recommend using your command line to navigate through this repository (once you have a copy of it, that is).
 It's great for getting additional practice.
 
-For now, simply navigate to [`1. What is Version Control`](NEED LINK) to `git` started.
+For now, simply navigate to [`1. What is Version Control`](git-activity/1-version-control.md) to `git` started.
 
 Using your command line, navigate to the `git-activity` directory. Inside, you should see files for the activities
 mentioned above. 
