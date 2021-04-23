@@ -79,16 +79,19 @@ to make sure you have plenty of commits to keep track of where you've been.
 5. `git commit -m "Your awesome commit message`
 6. `git push origin main //to push to GitHub`
 
-#### Common `Git` commands:
+## Common `Git` commands:
 - `git commit`[Atlassian: git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
 - `git add`[Atlassian: git add](https://www.atlassian.com/git/tutorials/saving-changes)
 - `git status`[Atlassian: git status](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
 
-#### Troubleshooting
+## Troubleshooting
 **I accidentally staged all my files! How do I unstage the ones I don't want?** *For each file you want to unstage, 
 type `git restore --staged <FILENAME>` (remember to ignore the <>)*
 **I wrote a bad git message and want to re-write it** *Follow the instructions here: [How to Change a Git Commit Message](https://linuxize.com/post/change-git-commit-message/)*
 **I want to go back to a previous commit** *Commit your current code. Then use `git log` to see the previous commit 
 hashes, then type `git checkout <hashid>` to go back to that commit. Once you're there, you'll need to follow all the
 steps identified above if you want to save anything. If you are in this position, you may want to utilize branching, which
-is discussed in a later section.*
+is discussed in the next section.*
+
+## Next Step:
+Go to [5-collaboration-workflow](./5-collaboration-workflow.md) to go to the next activity.
