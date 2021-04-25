@@ -1,31 +1,121 @@
 # Activity 5: Collaboration using `git`
 
 ## Learning Outcomes
-- [ ] OUTCOME
-- [ ] OUTCOME
+- [ ] Explain how branches help facilitate collaborative software development
+- [ ] Describe and use a workflow for collaboration
+
+## Overview
+
+### Branching for individual projects
+The [previous lesson](4-independent-project-workflow.md) described a simple workflow where all development occurs
+on a single branch, called `main`. While this is great for getting used to using git, there will be inevitably be a time
+when you need to use branches to aid development. 
+
+A branch is a pointer to a snapshot of your repository. You can utilize branches for any changes you want to make, 
+whether you're fixing a tiny bug or writing a big part of your code. While a branch isn't exactly a copy of the
+code up to that point in your development process, it can be thought of as that. You can create a branch from any branch
+at any time, and expect that all code written and modified up to that time will be available to you. 
+
+*Technically, a branch resembles the tip of a series of commits and is not a container for commits. 
+The history for a branch is extrapolated through the commit relationships.* 
+Source: [Atlassian: Git Branches](https://www.atlassian.com/git/tutorials/using-branches)
+
+As mentioned above, you can use branches when you work as an individual. Compare these diagrams:
+![individual branching](../assets/individual.png)
+
+The top diagram shows the `main` branch with commits. The bottom diagram shows branches that come off of main. 
+One is a feature branch. After one commit, it gets merged back into main. But there is also a commit that happens
+in the main branch during that time (let's imagine it was a small bug fix). After the feature branch was merged and
+another commit added, an experiment branch was created that was abandoned. Development continued on the `main` branch.
+
+As an individual, you can decide how often you want to use branches vs. writing directly on main. It's generally considered
+best practice to use branches for most work, but sometimes that adds unnecessary complexity. 
+
+### Collaborating using Branches
+When you work on a team, whether that be for a school project or at your job, you will most likely need to get 
+approval to merge any code to the main branch. Why? Because the main branch is the primary, clean, working branch that
+is pushed to production (and interacted with by other users). Because of this, you want the main branch to be bug-free
+at all times. 
+
+So what does this mean? Simply put, it means that you should never develop on the `main` branch directly. Instead, 
+you want to create branches off of `main`, pull necessary updates from `main` as you develop, and merge back into main
+once your code is ready to go and approved. 
+
+Consider the following scenario. A small team (consisting of Julia, Xavier, and Colleena) are building a new feature
+at their company. The company has been around for a few years, so they have a fairly extensive codebase -- all working
+code in the `main` branch.
+![team branching](../assets/teams.png)
 
 
+- Julia created `branch1` and worked on building a new model for the feature.
+- Xavier created `branch2`, fixed a bug in the code, and merged it to main.
+- Colleena was enjoying a well-earned vacation.
+- Julia finished their model, got it approved and merged it to main after Xavier's bug fix was merged. Then, Julia 
+started working on another model in `branch3`.
+- Colleena came back from vacation and needed to work off of Julia's progress, so she created a `branch5` from Julia's
+working branch. Colleena merged her work into `branch3`, which then got merged to main.
+- But Colleena had another small bit of code cleanup to do, so she created `branch4` and merged that into main.
+  
+This is a fairly typical way a team uses branching for development. 
 
-## Activity:
-When you work on simple projects, you can most often do all of your work in the `main` branch. When you start working on 
-more complicated projects, you may want to utilize branches. In that case, look at the [Collaboration]() Workflow which 
-covers branches. 
+You may be wondering, what happens if Julia and Xavier made changes in the same file? What code would be kept?
+This is what's called a **merge conflict**, which will be covered in a later section. Everyone will encounter merge
+conflicts when working in git, but for now, suffice it to say that:
 
-For simple projects, the workflow most often includes committing, pushing, and pulling.
+1. You can minimize merge conflicts by working in different files and not changing code in the same file at the same time.
+2. If you pull changes from the main branch frequently, you will be able to avoid large merge conflicts. 
 
-#### Git Branches
+So how do you go about implementing this workflow? Here are the steps:
+#### 1. Check that you are on the main branch
+Before doing anything, make sure you are on the main branch by typing the following in the command line. 
+```shell
+git branch  //returns a list of all branches 
+   ```
+There should be an asterisk next to main. ```* main```
 
+#### 2. Make sure the code is up to date
+```shell
+git pull origin main //pulls any merged changes from main
+``` 
+Sometimes you can use ```git pull``` if you have it set up. You can also use this to pull remote branches, just 
+substitute `main` with the branch name you want to pull.
 
-#### What is a Git Commit?
+#### 3. Create a new branch to work from.
+```shell
+git checkout -b  <branch name>  //remember to ignore the <> when writing names
+```
+The `-b` creates a new branch from the branch you are on. If you want to move to a branch that already exists, simply
+use:
+```shell
+git checkout <branch name> 
+```
+If you are in `branch` and you want to go back to main, you would type:
+```shell
+git checkout main
+```
 
+#### 4. Commit your changes frequently
+Add and commit your changes just like you did in the individual workflow.
 
-#### The Committing Process
-
-
+#### 5. When you're ready to push your code to GitHub
+The main differences between this workflow and the individual workflow are:
+1. You should always check for new changes from main before pushing to ensure your code is as up to date as possible
+and that you aren't introducing merge conflicts. 
+2. You should never neVER, NEVER push to main using `git push` or `git push origin main`. Pretend these commands 
+    do not exist. 
+   
+- `git checkout main`
+- `git pull origin main`
+- `git checkout <branchname>`
+- `git merge main //will merge any changes from main INTO your branch`
+   *This may result in a VIM window appearing. If it does. Don't panic. If you want to edit the message,
+   type 'i' to go into insert mode.
+   When you've finished typing your message, press escape, then ```:wq``` to save and quit.*
+- `git push origin <yourbranch name> // pushes to a remote branch of this name`
 
 ## Summary Git Workflow for Collaboration:
 1. `git pull orign main //get most recent chages` 
-2. make your changes
+2. *make your changes*
 3. `git status //see what files have changed` 
 4. `git add <filename> //ex. git add Notes.txt`
 5. `git commit -m "Your awesome commit message`
