@@ -72,7 +72,7 @@ to make sure you have plenty of commits to keep track of where you've been.
 
 
 ## Summary Git Workflow:
-1. `git pull orign main //get most recent chages` 
+1. `git pull origin main //get most recent chages` 
 2. make your changes
 3. `git status //see what files have changed` 
 4. `git add <filename> //ex. git add Notes.txt`
