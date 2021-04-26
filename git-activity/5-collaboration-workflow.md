@@ -124,7 +124,18 @@ and that you aren't introducing merge conflicts.
 7. `git push origin <yourbranchname>`
 
 Once you go through all of these stages, you will be able to follow the link GitHub gives you (upon a successful push)
-to make a pull request and view existing branches. You can view remote branches anytime on GitHub in the dropdown
+to make a pull request and view existing branches. You can view remote branches anytime on GitHub in the dropdown. 
+![branches on GitHub](../assets/branches.png).
+
+## Activity
+Using this workflow. Create a new branch and add a couple of thoughts to your Notes document regarding what you've 
+learned. Then go through the workflow and push it to a remote request on GitHub. You don't need to add much to your 
+notes document. In case you want some prompts of what to add, try these questions:
+
+- How do branches help people collaborate on the same repository?
+- How does the workflow for teams differ from a workflow that you may use when working independently?
+
+You will go through the process of creating a pull request for your changes in the next lesson.
 
 ## Common `Git` commands:
 - `git branch` [Atlassian: Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
@@ -141,8 +152,13 @@ article from FreeCodeCamp: [Git Fetch vs Pull: What's the Difference Between the
 - `git status`[Atlassian: git status](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
 
 ## Troubleshooting
-**QUESTION** *ANSWER*
+**I accidentally started making changes on the `main` branch. What do I do?** *Just create a new branch now. The great 
+thing about branching in git is that you can create a branch anytime and it will take your work into that new branch.*
+**How do I get rid of branches?** *Use `git branch -d <branchname>` to remove branches that are fully merged into `main`. If there
+is a branch that isn't fully merged, use `git branch -D <branchaname>*.
 
+*Have something you want to add here? Use this workflow to create a new branch and add your changes. You'll learn how to 
+make a Pull Request to the original repo in a later activity!*
 
 ## Next Step:
 Go to [6-NAME](./NAME) to go to the next activity.
