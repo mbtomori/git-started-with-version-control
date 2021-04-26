@@ -32,8 +32,8 @@ The goal of this repository is to get you:
 3. `git`ing started with your own fork
 4. The `git` workflow for independent projects
 5. Collaboration using `git`
-6. Best practices for collaboration
-7. Requesting changes via GitHub Pull Requests
+6. Requesting changes via GitHub Pull Requests
+7. Best practices for collaboration
 8. The dreaded MERGE CONFLICT
 9. Completion Log (Create a pull request to a parent repository)
 10. Where do I go from here?
