@@ -2,6 +2,8 @@
 This is an educational activity that accompanies [this workshop](https://docs.google.com/presentation/d/1NxTohlXr87xIY041OWxAGsA722d6O3ZcIsAilQD75Cg/edit?usp=sharing)
 to introduce the concept of collaborating with others using version control tools like `git` and GitHub. 
 
+SAMPLE CODE FOR PULL REQUEST COMMENTS.
+
 ## Learning Objectives
 By the end of this activity, you will be able to:
 - [ ] Explain how version control benefits software development.
