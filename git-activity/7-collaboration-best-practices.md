@@ -1,4 +1,4 @@
-# Activity 8: Best practices for collaboration
+# Activity 7: Best practices for collaboration
 
 ## Learning Outcomes
 - [ ] Describe common `git` and GitHub best practices with regard to naming and collaboration.

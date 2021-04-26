@@ -1,4 +1,4 @@
-# Activity 11: Where do I go from here?
+# Activity 10: Where do I go from here?
 
 ## Overview
 This tutorial covered a lot of introductory topics, so I hope you've learned a lot! Like most things, there is still

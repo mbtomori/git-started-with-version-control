@@ -1,4 +1,4 @@
-# Activity 10: Completion Log
+# Activity 9: Completion Log
 
 ## Learning Outcomes
 - [ ] Use the collaboration workflow to create a pull request to the original, upstream repository.

@@ -1,4 +1,4 @@
-# Activity 7: Making Pull Requests
+# Activity 6: Making Pull Requests
 
 ## Learning Outcomes
 - [ ] Create a pull request

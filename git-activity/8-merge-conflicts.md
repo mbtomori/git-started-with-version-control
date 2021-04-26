@@ -1,4 +1,4 @@
-# Activity 9: The dreaded MERGE CONFLICT
+# Activity 8: The dreaded MERGE CONFLICT
 
 ## Learning Outcomes
 - [ ] Identify situations that are likely to create merge conflicts
