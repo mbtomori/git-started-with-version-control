@@ -27,16 +27,16 @@ The goal of this repository is to get you:
 
 
 ## Activities
-1. What is version control?
-2. So what is `git`? and how does it compare to GitHub?
-3. `git`ing started with your own fork
-4. The `git` workflow for independent projects
-5. Collaboration using `git`
-6. Requesting changes via GitHub Pull Requests
-7. Best practices for collaboration
-8. The dreaded MERGE CONFLICT
-9. Completion Log (Create a pull request to a parent repository)
-10. Where do I go from here?
+1. [What is version control?](git-activity/1-version-control.md)
+2. [So what is `git`? and how does it compare to GitHub?](git-activity/2-what-is-git.md)
+3. [`git`ing started with your own fork](git-activity/3-gitting-started.md)
+4. [The `git` workflow for independent projects](git-activity/4-independent-project-workflow.md)
+5. [Collaboration using `git`](git-activity/5-collaboration-workflow.md)
+6. [Requesting changes via GitHub Pull Requests](git-activity/6-pull-requests.md)
+7. [Best practices for collaboration](git-activity/7-collaboration-best-practices.md)
+8. [The dreaded MERGE CONFLICT](git-activity/8-merge-conflicts.md)
+9. [Completion Log (Create a pull request to a parent repository)](git-activity/9-completion-log.md)
+10.[Where do I go from here?](git-activity/10-next-steps.md)
 
 ## What to do to `Git` Started
 I highly recommend using your command line to navigate through this repository (once you have a copy of it, that is).
