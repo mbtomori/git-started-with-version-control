@@ -4,8 +4,9 @@
 - [ ] Explain how version control benefits software development for individual and collaborative work
 
 ## Version Control Introduction
-Version control is a software specific process that tracks and manages changes to a code base. If you use Google Docs
-or other similar projects, you can often go back in time to "restore" a previous version of your document. 
+Version control is a software specific process that tracks and manages changes to a code base. One way to think about 
+version control is to compare it to software like Google Docs that has a feature where you can go back and review and 
+restore previous versions of a document.
 
 Regardless of whether you are working by yourself or in a group, sometimes you want to go back and see a previous 
 version of your code. Using version control will enable you to go back to any previous commit. Without version control, 
@@ -45,5 +46,7 @@ Go to [2-what-is-git](./2-what-is-git.md) to go to the next activity.
 
 #### Additional Resources
 Atlassian, the company that owns BitBucket (a GitHub competitor) has great tutorials on git. I highly recommend them. 
+- [Summary Slide Show](https://docs.google.com/presentation/d/1NxTohlXr87xIY041OWxAGsA722d6O3ZcIsAilQD75Cg/edit?usp=sharing) 
+  created for a workshop delivered on 4/26/21.
 - [What is Version Control](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [Getting Git Right](https://www.atlassian.com/git)
