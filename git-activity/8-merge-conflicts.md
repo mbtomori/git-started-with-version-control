@@ -1,12 +1,17 @@
 # Activity 9: The dreaded MERGE CONFLICT
 
 ## Learning Outcomes
-- [ ] OUTCOME
-- [ ] OUTCOME
+- [ ] Identify situations that are likely to create merge conflicts
+- [ ] Resolve merge conflicts when they arise
 
 ## Overview
+Even the most careful developers will encounter merge conflicts. These most often happen when two developers (or the same
+developer) changes the same lines in a file and one developer tries to merge the changes together. Git won't know which
+lines to keep!
 
+Merge conflicts can prevent git from starting to merge, or it can happen in the middle of an attempted merge. 
 
+Here's an example of a merge conflict for this exact file. 
 
 
 
@@ -21,13 +26,8 @@
 
 
 #### Previous git commands
-- `git commit`[Atlassian: git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
-- `git add`[Atlassian: git add](https://www.atlassian.com/git/tutorials/saving-changes)
-- `git status`[Atlassian: git status](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
-- `git branch` [Atlassian: Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
-- `git checkout` [Atlassian: Git Checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
-- `git merge` [Atlassian: Git merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
-- `git pull` [Atlassian: Git pull](https://www.atlassian.com/git/tutorials/syncing/git-pull)
+- `git stash`[Atlassian: git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+
 
 ## Troubleshooting
 **QUESTION** *ANSWER*
