@@ -104,24 +104,38 @@ and that you aren't introducing merge conflicts.
 2. You should never neVER, NEVER push to main using `git push` or `git push origin main`. Pretend these commands 
     do not exist. 
    
-- `git checkout main`
-- `git pull origin main`
-- `git checkout <branchname>`
-- `git merge main //will merge any changes from main INTO your branch`
+- `git checkout main // goes to the main branch` 
+- `git pull origin main // pulls any changes that have been updated in main in GitHub to your local main`
+- `git checkout <branchname> // return to your local branch`
+- `git merge main //will merge any changes from main INTO your local branch`
    *This may result in a VIM window appearing. If it does. Don't panic. If you want to edit the message,
    type 'i' to go into insert mode.
    When you've finished typing your message, press escape, then ```:wq``` to save and quit.*
-- `git push origin <yourbranch name> // pushes to a remote branch of this name`
+- `git push origin <yourbranchname> // pushes your local branch to GitHub with the same name`
 
 ## Summary Git Workflow for Collaboration:
-1. `git pull orign main //get most recent chages` 
-2. *make your changes*
-3. `git status //see what files have changed` 
-4. `git add <filename> //ex. git add Notes.txt`
-5. `git commit -m "Your awesome commit message`
-6. `git push origin main //to push to GitHub`
+1. (from the main branch) `git checkout -b <new-branch-name> //remember to ignore the <>`
+2. Add your code using the `git status`, `git add`, and `git commit` steps. When you are ready to make a pull request, 
+   follow the next instructions.
+3. `git checkout main // return to main branch`
+4. `git pull origin main //pull any updates from GitHub`
+5. `git checkout <yourbranchname>`
+6. `git merge main`
+7. `git push origin <yourbranchname>`
+
+Once you go through all of these stages, you will be able to follow the link GitHub gives you (upon a successful push)
+to make a pull request and view existing branches. You can view remote branches anytime on GitHub in the dropdown
 
 ## Common `Git` commands:
+- `git branch` [Atlassian: Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
+- `git checkout` [Atlassian: Git Checkout](https://www.atlassian.com/git/tutorials/using-branches/git-checkout)
+- `git merge` [Atlassian: Git merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
+
+#### Also useful to note:
+`git pull` combines two commands: `git fetch` and `git merge`. For more information on the difference, read this
+article from FreeCodeCamp: [Git Fetch vs Pull: What's the Difference Between the Git Fetch and Git Pull Commands?](https://www.freecodecamp.org/news/git-fetch-vs-pull/).
+  
+#### Previous git commands
 - `git commit`[Atlassian: git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
 - `git add`[Atlassian: git add](https://www.atlassian.com/git/tutorials/saving-changes)
 - `git status`[Atlassian: git status](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
