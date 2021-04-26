@@ -82,6 +82,7 @@ to make sure you have plenty of commits to keep track of where you've been.
 ## Common `Git` commands:
 - `git commit`[Atlassian: git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
 - `git add`[Atlassian: git add](https://www.atlassian.com/git/tutorials/saving-changes)
+- `git rm` [Atlassian: git rm](https://www.atlassian.com/git/tutorials/undoing-changes/git-rm)
 - `git status`[Atlassian: git status](https://www.atlassian.com/git/tutorials/inspecting-a-repository)
 
 ## Troubleshooting
