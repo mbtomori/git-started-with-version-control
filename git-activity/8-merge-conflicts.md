@@ -18,7 +18,7 @@ Here's an example of a merge conflict for this exact file.
 
 
 ## Steps for Resolving Merge Conflicts:
-
+I'm adding stuff here that I want to keep. 
 
 
 ## Activity
