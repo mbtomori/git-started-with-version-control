@@ -22,7 +22,7 @@ are as follows:
 - Learning curve and un-intuitive commands (if you've already used git, you probably already understand
   the learning curve involved).
   
-#### :thinking_face: So if `git` is software, what is GitHub?
+#### So if `git` is software, what is GitHub?
 GitHub is a code hosting platform (web application) for version control and collaboration that uses git for version 
 control. This means that GitHub stores your code, any changes you make, and handles permissions for you, but you 
 use Git to update your code base. 
