@@ -34,7 +34,7 @@ The goal of this repository is to get you:
 10.[Where do I go from here?](git-activity/10-next-steps.md)
 
 ## What to do to `Git` Started
-I highly recommend using your command line to navigate through this repository (once you have a copy of it, that is).
+I highly recommend using your terminal to navigate through this repository (once you have a copy of it, that is).
 It's great for getting additional practice.
 
 For now, simply navigate to [`1. What is Version Control`](git-activity/1-version-control.md) to `git` started. (Yes, I

@@ -38,7 +38,7 @@ thought of as “safe” versions of a project—Git will never change them unle
    This pulls any changes from GitHub to your local repository. 
 2. Create a new file in this repository. Call it Notes (use .md for markdown or .txt for text file). 
 3. Add a line of text to your file and save it. 
-4. In your command line, type `git status`. You should see something like this:
+4. In your terminal, type `git status`. You should see something like this:
    ![Git Status Unstaged](../assets/git-status-unstaged.png)
    When a file is unstaged, it means it has been modified, but isn't set up to be committed when you commit changes. 
 5. To set the file up for a commit, type `git add <FILENAME>`<br>

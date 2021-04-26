@@ -67,7 +67,7 @@ conflicts when working in git, but for now, suffice it to say that:
 
 So how do you go about implementing this workflow? Here are the steps:
 #### 1. Check that you are on the main branch
-Before doing anything, make sure you are on the main branch by typing the following in the command line. 
+Before doing anything, make sure you are on the main branch by typing the following in the terminal. 
 ```shell
 git branch  //returns a list of all branches 
    ```

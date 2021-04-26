@@ -27,7 +27,7 @@ likely to fork a repository when you work at a company and will clone the reposi
 1. Click on the "Code" button. Click HTTPS and copy the URL in the box (If you have set up SSH with GitHub, 
    you can select SSH). 
    ![Clone Repository](../assets/clone.png)
-2. Using your command line, navigate to the location you want to put the repository in.
+2. Using your terminal, navigate to the location you want to put the repository in.
 3. Type `git clone <URL> //ignore the <> symbols`. <br>
    ex. `git clone https://github.com/your-username/git-started-with-version-control.git`
 4. Enter your github login credentials (*NOTE: You won't be able to see what you type as you type.*)   
