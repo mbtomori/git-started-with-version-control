@@ -13,17 +13,12 @@ By the end of this activity, you will be able to:
 
 ## Overview
 In this repository, you will find:
-- A git workflow to use when working independently.
-- A git workflow to use when working on a team.
-- A dictionary of common git commands.
-- Additional Resources
-    - Version Control basics
-    - More advanced version control topics
-    - Conventions and best practices often utilized on teams.
+- A git workflow to use when working independently (no branches).
+- A git workflow to use when collaborating with a team (using branches).
     
 The goal of this repository is to get you:
-    1. More confident using git commands
-    2. Provide practice using GitHub features like Pull Requests and Comments. 
+    1. More confident using simple git commands for development
+    2. Provide practice using GitHub features like Pull Requests
 
 
 ## Activities
@@ -42,12 +37,16 @@ The goal of this repository is to get you:
 I highly recommend using your command line to navigate through this repository (once you have a copy of it, that is).
 It's great for getting additional practice.
 
-For now, simply navigate to [`1. What is Version Control`](git-activity/1-version-control.md) to `git` started.
+For now, simply navigate to [`1. What is Version Control`](git-activity/1-version-control.md) to `git` started. (Yes, I
+really like the pun).
 
 Using your command line, navigate to the `git-activity` directory. Inside, you should see files for the activities
 mentioned above. 
 
-*NOTE: These files are written in [Markdown](https://www.markdownguide.org), which will not be covered in this tutorial.
+#### Notes:
+1. This tutorial doesn't cover installing git. If you do not have git installed, please find a tutorial to guide
+you through it or use a virtual environment that has git installed.
+2. These files are written in [Markdown](https://www.markdownguide.org), which will not be covered in this tutorial.
 If you're interested, it's easy to learn and will help you when you create and format your own README.md files. You can 
 use IntelliJ or other IDEs to view or edit Markdown files. If you use a basic text editor (like Sublime Text or vim), 
 you will read the files with all the formatting.*
