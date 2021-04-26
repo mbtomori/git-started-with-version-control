@@ -45,6 +45,9 @@
 # *.iml
 # *.ipr
 
+# in assets files
+.DS_Store
+
 # CMake
 cmake-build-*/
 
