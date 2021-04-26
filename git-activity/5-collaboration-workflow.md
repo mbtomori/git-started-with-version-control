@@ -146,6 +146,9 @@ You will go through the process of creating a pull request for your changes in t
 `git pull` combines two commands: `git fetch` and `git merge`. For more information on the difference, read this
 article from FreeCodeCamp: [Git Fetch vs Pull: What's the Difference Between the Git Fetch and Git Pull Commands?](https://www.freecodecamp.org/news/git-fetch-vs-pull/).
   
+This is far from the only collaboration workflow. Checkout Atlassian's [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+for alternative options. 
+
 #### Previous git commands
 - `git commit`[Atlassian: git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
 - `git add`[Atlassian: git add](https://www.atlassian.com/git/tutorials/saving-changes)
