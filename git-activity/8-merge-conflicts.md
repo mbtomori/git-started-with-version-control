@@ -14,7 +14,7 @@ conflict happens before the merge is started, git will direct you to commit your
 branch. 
 
 If you have a conflict that arises during a merge, you will need to "resolve" the conflict in the affected files. 
-This is where it is important to read the conflict message carefully in your command line because you won't be able to 
+This is where it is important to read the conflict message carefully in your terminal because you won't be able to 
 merge until all conflicts are resolved, and the changes are committed.
 
 ## Steps for Resolving Merge Conflicts:
