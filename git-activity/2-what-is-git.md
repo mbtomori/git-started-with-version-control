@@ -11,8 +11,8 @@ changes to that code base. While `git` is extremely popular software for this, i
 According to [Atlassian](https://bitbucket.org/product/version-control-software), the pros and cons of `git` 
 are as follows: 
 #### Pros of Git Version Control
-- Distributed fault tolerant network architecture - In other words, people can work on the same codebase without 
-  messing each other up).
+- Distributed fault-tolerant network architecture - In other words, people can work on the same codebase without 
+  messing each other up.
 - Optimized for fast commits and checkouts - You can literally commit every minute if you want to).
 - Non-destructive updates through use of an immutable log - You have access to all previous (committed) versions of the code).
 
