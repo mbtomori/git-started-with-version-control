@@ -44,4 +44,4 @@ tutorial to create and resolve a merge conflict.
 make a Pull Request to the original repo in a later activity!*
 
 ## Next Step:
-Go to [10-Completion-Lob](10-completion-log.md) to go to the next activity.
+Go to [9-Completion-Lob](9-completion-log.md) to go to the next activity.

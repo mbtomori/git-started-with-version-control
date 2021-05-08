@@ -59,4 +59,4 @@ to avoid confusion -- especially around merging!
 
 
 ## Next Step:
-Go to [9-merge-conflicts](9-merge-conflicts.md) to go to the next activity.
+Go to [8-merge-conflicts](8-merge-conflicts.md) to go to the next activity.

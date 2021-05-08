@@ -39,4 +39,4 @@ THANK YOU!!!
 - YOUR USERNAME etc. here. 
 
 ## Next Step:
-Go to [11-next-steps](11-next-steps.md) to go to the LAST activity.
+Go to [10-next-steps](10-next-steps.md) to go to the LAST activity.

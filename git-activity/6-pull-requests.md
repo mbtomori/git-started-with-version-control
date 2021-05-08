@@ -72,4 +72,4 @@ Create a pull request for the changes to your Notes file from this workflow to g
 make a Pull Request to the original repo in a later activity!*
 
 ## Next Step:
-Go to [8-collaboration-best-practices.md](8-collaboration-best-practices.md) to go to the next activity.
+Go to [7-collaboration-best-practices](7-collaboration-best-practices.md) to go to the next activity.
