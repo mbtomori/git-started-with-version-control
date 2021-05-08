@@ -164,4 +164,4 @@ is a branch that isn't fully merged, use `git branch -D <branchaname>*.
 make a Pull Request to the original repo in a later activity!*
 
 ## Next Step:
-Go to [6-NAME](./NAME) to go to the next activity.
+Go to [6-pull-requests](./6-pull-requests.md) to go to the next activity.
