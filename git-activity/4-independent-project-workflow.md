@@ -39,7 +39,9 @@ thought of as “safe” versions of a project—Git will never change them unle
 2. Create a new file in this repository. Call it Notes (use .md for markdown or .txt for text file). 
 3. Add a line of text to your file and save it. 
 4. In your terminal, type `git status`. You should see something like this:
+   
    ![Git Status Unstaged](../assets/git-status-unstaged.png)
+   
    When a file is unstaged, it means it has been modified, but isn't set up to be committed when you commit changes. 
 5. To set the file up for a commit, type `git add <FILENAME>`<br>
    ex. `git add Notes.md` or `git add Notes.txt`
@@ -55,6 +57,7 @@ thought of as “safe” versions of a project—Git will never change them unle
 7. Now that the file is properly staged, you need to commit it. Type `git commit -m "Your message here"`.
    The `-m` is an argument indicating a message (as a String) will follow. When you type `git status` again, 
    your branch should be clean.
+   
    ![Git Commit With Message](../assets/git-commit.png)
    
 *Know that there are a number of developers who have strong ideas regarding what makes a good commit message. If you're 
@@ -65,6 +68,7 @@ that, like everything in software development, there are a TON of differing opin
 8. Now that everything is committed, you can continue to work on your project and go through steps 2-7 process again. 
 9. When you are ready to push your changes to GitHub, type `git push origin main`. This will push your `main` branch
 to GitHub. You will likely need to enter your GitHub username and password to push. 
+   
    ![Git Push](../assets/git-push.png)
 
 And that's it! This is the simplest workflow you can use. As long as you follow this process closely, it should be easy
