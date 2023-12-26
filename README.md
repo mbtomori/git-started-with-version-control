@@ -31,7 +31,7 @@ The goal of this repository is to get you:
 7. [Best practices for collaboration](git-activity/7-collaboration-best-practices.md)
 8. [The dreaded MERGE CONFLICT](git-activity/8-merge-conflicts.md)
 9. [Completion Log (Create a pull request to a parent repository)](git-activity/9-completion-log.md)
-10.[Where do I go from here?](git-activity/10-next-steps.md)
+10. [Where do I go from here?](git-activity/10-next-steps.md)
 
 ## What to do to `Git` Started
 I highly recommend using your terminal to navigate through this repository (once you have a copy of it, that is).
